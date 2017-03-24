@@ -21,6 +21,7 @@ import { BhnButtonComponent } from './bhn-button/bhn-button.component';
 import { BhnContentComponent } from './bhn-content/bhn-content.component';
 import { BhnFormComponent } from './bhn-form/bhn-form.component';
 import { BhnTagComponent } from './bhn-tag/bhn-tag.component';
+import { BhnTileComponent } from './bhn-tile/bhn-tile.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { BhnTagComponent } from './bhn-tag/bhn-tag.component';
     BhnButtonComponent,
     BhnContentComponent,
     BhnFormComponent,
-    BhnTagComponent
+    BhnTagComponent,
+    BhnTileComponent
   ],
   imports: [
     BrowserModule,
