@@ -24,6 +24,7 @@ import { BhnTagComponent } from './bhn-tag/bhn-tag.component';
 import { BhnTileComponent } from './bhn-tile/bhn-tile.component';
 import { BhnTableComponent } from './bhn-table/bhn-table.component';
 import { BhnMediaComponent } from './bhn-media/bhn-media.component';
+import { BhnProgressComponent } from './bhn-progress/bhn-progress.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { BhnMediaComponent } from './bhn-media/bhn-media.component';
     BhnTagComponent,
     BhnTileComponent,
     BhnTableComponent,
-    BhnMediaComponent
+    BhnMediaComponent,
+    BhnProgressComponent
   ],
   imports: [
     BrowserModule,
