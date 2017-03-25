@@ -4,7 +4,6 @@
 /dist
 /tmp
 /out-tsc
-v15
 
 # dependencies
 /node_modules
@@ -17,6 +16,7 @@ v15
 *.launch
 .settings/
 *.sublime-workspace
+.vs
 
 # IDE - VSCode
 .vscode/*
