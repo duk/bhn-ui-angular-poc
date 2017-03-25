@@ -50,8 +50,8 @@
 }
 
 .tabs li.is-active a {
-  border-bottom-color: #00d1b2;
-  color: #00d1b2;
+  border-bottom-color: #137CBD;
+  color: #137CBD;
 }
 
 .tabs ul {
@@ -163,8 +163,8 @@
 }
 
 .tabs.is-toggle li.is-active a {
-  background-color: #00d1b2;
-  border-color: #00d1b2;
+  background-color: #137CBD;
+  border-color: #137CBD;
   color: #fff;
   z-index: 1;
 }

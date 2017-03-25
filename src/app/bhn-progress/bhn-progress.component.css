@@ -59,11 +59,11 @@
 }
 
 .progress.is-primary::-webkit-progress-value {
-  background-color: #00d1b2;
+  background-color: #137CBD;
 }
 
 .progress.is-primary::-moz-progress-bar {
-  background-color: #00d1b2;
+  background-color: #137CBD;
 }
 
 .progress.is-info::-webkit-progress-value {

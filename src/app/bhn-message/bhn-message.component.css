@@ -69,12 +69,12 @@
 }
 
 .message.is-primary .message-header {
-  background-color: #00d1b2;
+  background-color: #137CBD;
   color: #fff;
 }
 
 .message.is-primary .message-body {
-  border-color: #00d1b2;
+  border-color: #137CBD;
   color: #021310;
 }
 

@@ -15,11 +15,11 @@
 
 .menu-list a:hover {
   background-color: whitesmoke;
-  color: #00d1b2;
+  color: #137CBD;
 }
 
 .menu-list a.is-active {
-  background-color: #00d1b2;
+  background-color: #137CBD;
   color: #fff;
 }
 
