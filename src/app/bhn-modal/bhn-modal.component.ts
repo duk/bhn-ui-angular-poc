@@ -10,6 +10,8 @@ export class BhnModalComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+
   }
 
 }

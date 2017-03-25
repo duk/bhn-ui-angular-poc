@@ -22,6 +22,8 @@ import { BhnContentComponent } from './bhn-content/bhn-content.component';
 import { BhnFormComponent } from './bhn-form/bhn-form.component';
 import { BhnTagComponent } from './bhn-tag/bhn-tag.component';
 import { BhnTileComponent } from './bhn-tile/bhn-tile.component';
+import { BhnTableComponent } from './bhn-table/bhn-table.component';
+import { BhnMediaComponent } from './bhn-media/bhn-media.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { BhnTileComponent } from './bhn-tile/bhn-tile.component';
     BhnContentComponent,
     BhnFormComponent,
     BhnTagComponent,
-    BhnTileComponent
+    BhnTileComponent,
+    BhnTableComponent,
+    BhnMediaComponent
   ],
   imports: [
     BrowserModule,
