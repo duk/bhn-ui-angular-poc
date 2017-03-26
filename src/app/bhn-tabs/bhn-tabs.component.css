@@ -1,27 +1,28 @@
-.tabs {
+﻿.tabs {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-size: 1rem;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   overflow: hidden;
   overflow-x: auto;
   white-space: nowrap;
-}
-
-.tabs:not(:last-child) {
   margin-bottom: 1.5rem;
 }
+
+/*.tabs:not(:last-child) {
+  margin-bottom: 1.5rem;
+}*/
 
 .tabs a {
   -webkit-box-align: center;

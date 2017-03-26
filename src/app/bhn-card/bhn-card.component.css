@@ -1,4 +1,4 @@
-.card-header {
+﻿.card-header {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -86,6 +86,7 @@
   color: #4a4a4a;
   max-width: 100%;
   position: relative;
+  margin-bottom: 0.75rem;
 }
 
 .card .media:not(:last-child) {

@@ -1,5 +1,6 @@
-.panel {
+﻿.panel {
   font-size: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .panel:not(:last-child) {
