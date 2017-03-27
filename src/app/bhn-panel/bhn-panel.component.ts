@@ -1,7 +1,5 @@
 ﻿import { Component, OnInit } from '@angular/core';
 
-import { BhnButton
-
 @Component({
   selector: 'app-bhn-panel',
   templateUrl: './bhn-panel.component.html',
