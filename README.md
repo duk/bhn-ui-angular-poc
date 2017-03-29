@@ -6,11 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Install Node.js on your machine
 2. Install Angular CLI `npm install -g @angular/cli`
-3. Clone this repository
+3. Clone this repository `git clone https://github.com/duk/bhn-ui-angular-poc.git`
 4. `cd bhn-ui-angular-poc`
 5. `npm install`
 6. `npm serve --open`
-7. If you could like to add new angular component, run `ng g component component-name`
+7. If you want to add new angular component, run `ng g component component-name`
 
 You can see the demo [here](http://bhn-ui-angular-poc.s3-website-us-west-1.amazonaws.com/)
 
