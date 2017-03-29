@@ -16,7 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 If we are planning to start a fresh new project, I would recommend angular. And here are my reasons.
 
-1. It's opinionated. It comes with strick guidelines as how and where things should go. We don't have waste days debating about how we should do things. 
+1. It's opinionated. It comes with strict [guidelines](https://angular.io/docs/ts/latest/guide/style-guide.html) as how and where things should go. We don't have waste days debating about how we should do things. 
 2. TypeScript. Bringing types to frontend helps us to catch things at compile time.
 3. Made by Google. Yup. I heard they hire brightest engineers. :)
 4. Let's not build from scatch. We need to focus on business and our API performance, not UI. This UI is using an awesome CSS framework called [Bulma](http://bulma.io/). Let's leverage open source as much as we can. There is no reason to reinvent that is resulting in subpar outcome. 
