@@ -14,6 +14,29 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 You can see the demo [here](http://bhn-ui-angular-poc.s3-website-us-west-1.amazonaws.com/)
 
+If you open up [/src/app/app.component.html](https://github.com/duk/bhn-ui-angular-poc/blob/master/src/app/app.component.html), the entire page is composed of our angular "bhn" components. With angular and by following its guidelines, we can truly decouple UI development from API development.
+
+```html
+<div class="container">
+  <app-bhn-nav></app-bhn-nav>
+  <app-bhn-tabs></app-bhn-tabs>
+
+  <div class="columns">
+    <div class="column is-one-quarter">
+      <!--<app-bhn-menu></app-bhn-menu>-->
+      <app-bhn-panel></app-bhn-panel>
+      <app-bhn-card></app-bhn-card>
+    </div>
+    <div class="column">
+      <app-bhn-message></app-bhn-message>
+      <!--<app-bhn-box></app-bhn-box>-->
+      <app-bhn-table></app-bhn-table>
+      <app-bhn-pagination></app-bhn-pagination>
+    </div>
+  </div>
+</div>
+```
+
 ## Angular vs React
 
 If we are planning to start a fresh new project, I would recommend angular. And here are my reasons.
