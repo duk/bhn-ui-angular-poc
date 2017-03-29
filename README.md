@@ -2,27 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-## Development server
+## Steps to run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Install Node.js on your machine
+2. Install Angular CLI `npm install -g @angular/cli`
+3. Clone this repository
+4. `cd bhn-ui-angular-poc`
+5. `npm install`
+6. `npm serve --open`
+7. If you could like to add new angular component, run `ng g component component-name`
 
-## Code scaffolding
+## Angular vs React
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+If we are planning to start a fresh new project, I would recommend angular. And here are my reasons.
 
-## Build
+1. It's opinionated. It comes with strick guidelines as how and where things should go. We don't have waste days debating about how we should do things. 
+2. TypeScript. Bringing types to frontend helps us to catch things at compile time.
+3. Made by Google. Yup. I heard they hire brightest engineers. :)
+4. Let's not build from scatch. We need to focus on business and our API performance, not UI. This UI is using an awesome CSS framework called [Bulma](http://bulma.io/). Let's leverage open source as much as we can. There is no reason to reinvent that is resulting in subpar outcome. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## This is not a final product. I just whipped this one out over last weekend for a few hours. More to come.
