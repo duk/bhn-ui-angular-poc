@@ -12,6 +12,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 6. `npm serve --open`
 7. If you could like to add new angular component, run `ng g component component-name`
 
+You can see the demo [here](http://bhn-ui-angular-poc.s3-website-us-west-1.amazonaws.com/)
+
 ## Angular vs React
 
 If we are planning to start a fresh new project, I would recommend angular. And here are my reasons.
